@@ -32,3 +32,15 @@ button {
 button:hover {
   background-color: #2980b9;
 }
+.back-link {
+  display: inline-block;
+  margin-top: 40px;
+  color: #34495e;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+

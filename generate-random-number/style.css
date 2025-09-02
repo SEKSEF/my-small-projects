@@ -1,16 +1,51 @@
-.mybtn1{
-    text-align: center;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #c2e59c, #64b3f4);
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+  color: #2c3e50;
 }
- #mybtn{
-    font-size: 1.5em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    background-color: aqua;
-    cursor: pointer;
- }
- #mylbl{
-    display: block;
-    text-align: center;
-    font-size: 1.5em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 12px 30px;
+  font-size: 1.2em;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+h2#mylbl {
+  margin-top: 30px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 40px;
+  color: #34495e;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}

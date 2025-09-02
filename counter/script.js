@@ -1,6 +1,6 @@
 const labelCount = document.getElementById("labelCount");
 const decrease = document.getElementById("btnDecrease");
-const reset = document.getElementById("btnRreset");
+const reset = document.getElementById("btnReset");
 const increase = document.getElementById("btnIncrease");
 
 let count = 0;
