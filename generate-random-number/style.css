@@ -1,0 +1,16 @@
+.mybtn1{
+    text-align: center;
+}
+ #mybtn{
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+ }
+ #mylbl{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }

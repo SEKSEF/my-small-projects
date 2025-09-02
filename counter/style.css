@@ -1,0 +1,23 @@
+#labelCount {
+  font-size: 10em;
+  text-align: center;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnContainer {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: aqua;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(4, 230, 230);
+}
